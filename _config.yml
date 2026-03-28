@@ -1,0 +1,47 @@
+title: "Shaya Software & Systems LLC"
+name: "Mousa Shaya"
+description: "ML Researcher & Pattern Recognition Consultant"
+url: "https://shaya.ai"
+baseurl: ""
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
+
+author:
+  name: "Mousa Shaya"
+  bio: "ML Researcher & Pattern Recognition Consultant. 7 patents in deployed medical AI. BSEE/MSEE in Signal Processing. Independent researcher in automated lichen classification."
+  location: "Acton, Massachusetts"
+  email: "mshaya01.ml@gmail.com"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/mousashaya"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mousashaya"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://shaya.ai"
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jemoji
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+include:
+  - _pages

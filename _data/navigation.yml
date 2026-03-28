@@ -1,0 +1,9 @@
+main:
+  - title: "Research"
+    url: /research/
+  - title: "Patents"
+    url: /patents/
+  - title: "Consulting"
+    url: /consulting/
+  - title: "Contact"
+    url: /contact/
