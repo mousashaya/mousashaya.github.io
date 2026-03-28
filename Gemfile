@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
-gem "minimal-mistakes-jekyll"
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-remote-theme"
 gem "liquid", "~> 4.0.4"
 
 group :jekyll_plugins do

@@ -1,10 +1,10 @@
 title: "Shaya Software & Systems LLC"
 name: "Mousa Shaya"
 description: "ML Researcher & Pattern Recognition Consultant"
-url: "https://shaya.ai"
+url: "https://mousashaya.github.io"
 baseurl: ""
 
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "default"
 
 author:
@@ -19,15 +19,15 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mousashaya"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://shaya.ai"
+
+include:
+  - _pages
 
 plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-sitemap
-  - jemoji
+  - jekyll-remote-theme
 
 defaults:
   - scope:
@@ -42,6 +42,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-include:
-  - _pages
