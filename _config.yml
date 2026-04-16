@@ -1,6 +1,6 @@
 title: "Shaya Software & Systems LLC"
 name: "Mousa Shaya"
-description: "ML Researcher & Pattern Recognition Consultant"
+description: "Principal Consultant — ML & Signal Processing · 7 Patents · ASU Research Affiliate"
 url: "https://mousashaya.github.io"
 baseurl: ""
 
@@ -9,7 +9,7 @@ minimal_mistakes_skin: "default"
 
 author:
   name: "Mousa Shaya"
-  bio: "ML Researcher & Pattern Recognition Consultant. 7 patents in deployed medical AI. BSEE/MSEE in Signal Processing. Independent researcher in automated lichen classification."
+  bio: "Principal ML Consultant. 7 patents in deployed medical biosignal AI. BSEE/MSEE Signal Processing. ASU Research Affiliate. Lichen classification & PCG research."
   location: "Acton, Massachusetts"
   email: "mshaya01.ml@gmail.com"
   links:

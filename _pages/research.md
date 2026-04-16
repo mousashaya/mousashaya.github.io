@@ -1,35 +1,50 @@
 ---
 layout: single
-title: "Current Research"
+title: "Research"
 permalink: /research/
 author_profile: true
 ---
 
-## Automated Lichen Classification using Computer Vision
+## Lichen Biodiversity Informatics & ML Classification
 
-**2024 – Present | Independent Research | Toward academic publication**
+**Nov 2024 – Present · Arizona State University Research Affiliate**
 
-Collaborating with Dr. Frank Bungartz, Collections Manager of Lichens at Arizona State University, on automated species-level lichen identification using computer vision and deep learning.
+Collaborating with Dr. Frank Bungartz, Collections Manager of Lichens at Arizona State University and domain authority on lichen taxonomy, on a multi-component research program spanning database engineering, phylogenetics, and deep learning image classification.
 
-### Data Engineering & Taxonomy Cleanup
+### ML Image Classification Pipeline
 
-The Consortium of North American Lichen Herbaria (CNALH) at [lichenportal.org](https://lichenportal.org/portal/) — an NSF-funded global biodiversity dataset — serves as the primary data source. Key contributions:
+Developing a BioCLIP ViT-L/14 + ArcFace metric learning classifier for species-level lichen identification from images. Two-stage training design: large-scale noisy pretraining on iNaturalist aggregated imagery, followed by fine-tuning on expert-labeled Lichen Consortium data (~15,000 images across ~10,000 species).
 
-- Removed 35,000 non-lichen taxa entries from the database
-- Imported 60,000 new validated taxa from Mycobank and Index Fungorum
-- Updated all 200,000 taxa records with references to authoritative external sources
-- Implemented a correlator to join taxa data across disparate sources while enforcing taxonomic hierarchy integrity
-- Contributor to the Symbiota open-source platform — added sourceIdentifiers across all taxonomic tree explorers
+- UMAP + HDBSCAN clustering pipeline built over LIAS DELTA morphological data (10,709 species, 880 chemical compounds)
+- Interactive three-panel browser-based cluster viewer for exploratory analysis
+- Clustering analysis revealed clean photobiont-type separation — validating signal in morphological feature space
+- Embedding ensemble strategy: BioCLIP / DINOv2 / CLIP for robust representation
 
-### ML Modeling
+### Phylogenetic Analysis Pipeline
 
-- Developing a multimodal ML pattern recognition system for automated lichen identification from images
-- Investigating DNA barcoding of lichen samples and phylogenetic analysis using FASTA sequences from GenBank
-- Applying classical signal processing intuition to modern deep learning architectures
+End-to-end pipeline from raw GenBank HTML-wrapped flat files through aligned multi-locus phylogenetic inference:
+
+- Parsed ~51K GenBank DNA records (8 loci: ITS, 18S, 28S, RPB2, and others) producing 49,610 valid records
+- MAFFT alignment, trimAl trimming, IQ-TREE2 maximum likelihood inference
+- Primary focus on ITS, 18S, and 28S loci for Lecanoromycetes phylogeny
+- Mapping LIAS morphological and chemical trait data onto inferred phylogenetic trees
+
+### Database Engineering & Taxonomy Cleanup
+
+PostgreSQL database (fungix schema) integrating LIAS DELTA, Mycobank, and Index Fungorum data sources:
+
+- Removed 35,000 non-lichen taxa from the Consortium database
+- Added 60,000 new validated taxa from Mycobank and Index Fungorum
+- Updated all 200,000 taxa records with external source references and protolog data
+- Contributor to Symbiota open-source platform — sourceIdentifiers across all taxonomic tree explorers
+
+### Parallel Investigation: PCG Classification
+
+Active investigation of heart sound (phonocardiogram) classification using mel-spectrogram + Vision Transformer architectures and pretrained audio foundation models (HuBERT, Wav2Vec 2.0) — directly extending ECG signal processing expertise to acoustic cardiac signals.
 
 ### Affiliations
 
+- ASU Research Affiliate — Arizona State University
 - Member — American Bryological and Lichenological Society (ABLS)
-- Contributor — Consortium of North American Lichen Herbaria (CNALH)
-- Contributor — Symbiota open-source biodiversity platform
-- Committee member — Lichenology and Bryophyte Committee (invited)
+- Contributor — Consortium of North American Lichen Herbaria (CNALH) / Symbiota
+- Registered — ODSC AI East 2026, Boston MA
