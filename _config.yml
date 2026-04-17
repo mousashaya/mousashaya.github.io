@@ -9,6 +9,7 @@ minimal_mistakes_skin: "default"
 
 author:
   name: "Mousa Shaya"
+  avatar: "/assets/images/bio-photo.jpg"
   bio: "Principal ML Consultant. 7 patents in deployed medical biosignal AI. BSEE/MSEE Signal Processing. ASU Research Affiliate. Lichen classification & PCG research."
   location: "Acton, Massachusetts"
   email: "mshaya01.ml@gmail.com"
@@ -45,4 +46,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-  avatar: "/assets/images/bio-photo.jpg"
