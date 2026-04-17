@@ -1,7 +1,7 @@
 title: "Shaya Software & Systems LLC"
 name: "Mousa Shaya"
 description: "Principal Consultant — ML & Signal Processing · 7 Patents · ASU Research Affiliate"
-url: "https://mousashaya.github.io"
+url: "https://shayaml.com"
 baseurl: ""
 
 remote_theme: mmistakes/minimal-mistakes
@@ -13,6 +13,9 @@ author:
   location: "Acton, Massachusetts"
   email: "mshaya01.ml@gmail.com"
   links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://shayaml.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/mousashaya"
