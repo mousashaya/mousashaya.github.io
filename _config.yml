@@ -45,3 +45,4 @@ defaults:
     values:
       layout: single
       author_profile: true
+  avatar: "/assets/images/bio-photo.jpg"
