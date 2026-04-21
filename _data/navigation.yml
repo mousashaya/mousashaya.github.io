@@ -1,12 +1,6 @@
-# navigation.yml
-# Replace your existing _data/navigation.yml with this file
-
 main:
   - title: "Research"
     url: /research/
-    children:
-      - title: "Lichen Portal Presentation"
-        url: /research/lichen-presentation/
   - title: "Patents"
     url: /patents/
   - title: "Consulting"
