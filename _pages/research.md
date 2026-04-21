@@ -48,3 +48,12 @@ Active investigation of heart sound (phonocardiogram) classification using mel-s
 - Member — American Bryological and Lichenological Society (ABLS)
 - Contributor — Consortium of North American Lichen Herbaria (CNALH) / Symbiota
 - Registered — ODSC AI East 2026, Boston MA
+
+### Presentations
+
+**Taxonomic Data Enhancement of the Consortium of Lichen Herbaria (Symbiota)**  
+ABLS Consortium Meeting · April 2026
+
+Presented in collaboration with Dr. Frank Bungartz (ASU). Documents the full data reconciliation pipeline, TaxaKey algorithm, lichen filter methodology, and portal UI enhancements developed 2024–2026.
+
+[View Presentation →](/research/lichen-presentation/){: .btn .btn--primary}
