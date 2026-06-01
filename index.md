@@ -1,29 +1,37 @@
 ---
 layout: home
-author_profile: true
+title: "Principal Consultant — Machine Learning & Signal Processing"
 ---
 
-## Principal Consultant — Machine Learning & Signal Processing
+Shaya Software and Systems LLC is an independent ML consultancy founded on rare depth
+in real-time signal processing, physiological waveform analysis, and applied machine learning.
 
-Shaya Software and Systems LLC is an independent ML consultancy founded on rare depth in real-time signal processing, physiological waveform analysis, and applied machine learning.
+Before deep learning frameworks existed, I designed ECG pattern recognition algorithms
+deployed in ICUs worldwide — earning 7 patents at HP/Agilent. That foundational rigor
+in signal decomposition, feature engineering, and classification under noise now directly
+informs modern ML work spanning medical biosignal processing, SAR remote sensing,
+and biodiversity informatics.
 
-Before deep learning frameworks existed, I designed ECG pattern recognition algorithms deployed in ICUs worldwide — earning 7 patents at HP/Agilent. That foundational rigor in signal decomposition, feature engineering, and classification under noise now directly informs modern ML work in medical biosignal processing and biodiversity informatics.
+Current research spans SAR automatic target recognition, maritime ship classification
+from Sentinel-1 imagery, cognitive impairment screening from polysomnography signals,
+and lichen biodiversity classification in collaboration with Arizona State University.
 
-Current research applies transformer-based vision models, metric learning, and phylogenetic analysis to lichen biodiversity in collaboration with Arizona State University — toward academic publication in methods-focused venues.
+Development workflow incorporates Claude Code (Anthropic) for accelerated ML pipeline
+implementation, consistent with current industry practice for senior ML engineers.
 
 ## Available For
 
-- **Medical ML & biosignal processing** — PCG/ECG/PPG classification, physiological waveform analysis, clinical-grade validation
-- **Biodiversity & ecological ML** — species image classification, phylogenetic pipelines, biodiversity database engineering
-- **ML systems architecture** — data pipelines, model deployment, production-grade design
+- **SAR & remote sensing ML** — SAR ATR, ship classification, change detection,
+  Sentinel-1 SLC/GRD pipelines, DINOv2 fine-tuning for SAR domains
+- **Medical ML & biosignal processing** — PSG/EEG/ECG classification, cognitive
+  impairment screening, cardiac readmission prediction, physiological waveform analysis
+- **PCG/ECG/PPG classification** — physiological waveform analysis, clinical-grade validation
+- **Biodiversity & ecological ML** — species image classification, phylogenetic pipelines,
+  biodiversity database engineering
+- **ML systems architecture** — data pipelines, model deployment, production-grade design,
+  XGBoost + SHAP explainability for government and clinical applications
 
-## Current Work
-
-Active research with Dr. Frank Bungartz (ASU) on automated lichen classification: BioCLIP ViT-L/14 + ArcFace metric learning pipeline, UMAP/HDBSCAN clustering across 10,000+ species, multi-locus phylogenetic inference from GenBank DNA data, and interactive cluster visualization tooling.
-
-Parallel investigation into PCG (heart sound) classification using mel-spectrogram + ViT architectures and pretrained audio foundation models.
-
-Development workflow incorporates Claude Code (Anthropic) for accelerated ML pipeline implementation, consistent with current industry practice for senior ML engineers.
+---
 
 [View Research →](/research/){: .btn .btn--primary}
 [Consulting →](/consulting/){: .btn .btn--inverse}
