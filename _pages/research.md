@@ -49,15 +49,13 @@ Key contributions:
 
 ---
 
-## ShayaSAR — General SAR Foundation Model (In Progress)
+## ShayaSAR — General SAR Foundation Model (Deprioritized)
 
-**2026 · Target: arXiv + Hugging Face, August 2026**
+**2026 · Explored, not pursued**
 
-DINOv2 fine-tuned on the Sentinel-1 SAR channel of SSL4EO-S12 v1.1 —
-246,144 globally distributed locations, four seasonal timestamps, CC-BY-4.0 license.
-Filling a documented gap: no public SAR-only DINOv2 backbone with clean civilian
-provenance currently exists. Downstream evaluation on MSTAR, BigEarthNet-SAR,
-and change detection benchmarks.
+Investigated DINOv2 fine-tuning on the Sentinel-1 SAR channel of SSL4EO-S12 v1.1.
+Investigation concluded that the approach did not offer sufficient benefit over existing
+methods to warrant continued development.
 
 ---
 
@@ -131,6 +129,45 @@ and Index Fungorum:
 Investigation of phonocardiogram classification using mel-spectrogram + Vision
 Transformer architectures and pretrained audio foundation models (HuBERT, Wav2Vec 2.0)
 — extending ECG signal processing expertise to acoustic cardiac signals.
+
+---
+
+## Security Operations Tooling
+
+**2026 · In Development**
+
+Browser-based security operations center (SOC) dashboard for open-source SIEM environments,
+addressing the usability gap between raw Wazuh deployments and what SOC analysts and
+compliance auditors actually need. Full-stack: Python/Starlette async backend, OpenSearch
+as the query engine, and a single-file HTML/CSS/JS frontend deployable with no external
+dependencies.
+
+Key capabilities built:
+
+- **Kill chain timeline visualization** — multi-agent event timeline with MITRE ATT&CK
+  tactic and technique annotation, derived from Wazuh rule group analysis when explicit
+  ATT&CK fields are absent. Three-tier layout: heatmap, per-agent timeline lanes, and
+  pinned alert detail. Phase coloring (Recon / Initial Access / Lateral Movement /
+  Exfiltration) derived from rule group membership at render time.
+- **Compliance posture dashboard** — rule coverage mapped to NIST 800-171 and CMMC
+  control domains. Three states per domain: monitoring active and clean, monitoring
+  active with incidents, and no monitoring configured — the gap. Designed for auditors,
+  not just analysts.
+- **SCA policy visualization** — Security Configuration Assessment results across all
+  monitored agents, with pass/fail/not-applicable drill-down per policy check and
+  per-agent comparison.
+- **Vulnerability management** — CVE inventory per agent with severity bucketing and
+  cross-agent trend tracking.
+- **Geo-IP enrichment** — source IP country resolution using a bundled IP database;
+  no external API dependency, no vendor registration required.
+- **Multi-source normalization** — canonical internal alert model mapping Wazuh 4.x,
+  Wazuh 5.x, and Elastic Security (ECS) schemas, selectable by config without UI changes.
+  Opens the same interface to Suricata, Zeek, and Filebeat sources.
+- **Multi-tenant architecture** — per-customer data isolation for MSSP deployments.
+- **Scheduled reporting** — configurable PDF summary delivery; designed for managers who
+  cannot monitor a live dashboard.
+- **File Integrity Monitoring view** — FIM event log with expandable rows showing before/after
+  file hashes, change type, and owning agent.
 
 ---
 

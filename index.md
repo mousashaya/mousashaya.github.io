@@ -14,7 +14,8 @@ and biodiversity informatics.
 
 Current research spans SAR automatic target recognition, maritime ship classification
 from Sentinel-1 imagery, cognitive impairment screening from polysomnography signals,
-and lichen biodiversity classification in collaboration with Arizona State University.
+lichen biodiversity classification in collaboration with Arizona State University,
+and security operations tooling for open-source SIEM environments.
 
 Development workflow incorporates Claude Code (Anthropic) for accelerated ML pipeline
 implementation, consistent with current industry practice for senior ML engineers.
@@ -30,6 +31,9 @@ implementation, consistent with current industry practice for senior ML engineer
   biodiversity database engineering
 - **ML systems architecture** — data pipelines, model deployment, production-grade design,
   XGBoost + SHAP explainability for government and clinical applications
+- **Cybersecurity & SOC tooling** — SIEM visualization, MITRE ATT&CK kill chain timelines,
+  compliance gap detection (NIST 800-171 / CMMC), multi-source log normalization
+  (Wazuh / Elastic Security / ECS)
 
 ---
 

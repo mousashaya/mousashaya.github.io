@@ -17,8 +17,6 @@ Independent ML consultancy available for contract engagements where deep domain 
 
 Seven patents in ECG/biosignal pattern recognition — algorithms deployed in ICUs worldwide — provide a clinical engineering foundation that very few ML consultants can match. Deep familiarity with the validation rigor, false positive/negative tradeoffs, sensitivity/specificity constraints, and deployment realities that medical ML demands.
 
-Current active work in PCG (heart sound) classification using mel-spectrogram + ViT and pretrained audio foundation models (HuBERT, Wav2Vec 2.0).
-
 ---
 
 ### Biodiversity & Ecological ML
@@ -32,6 +30,24 @@ Directly applicable to other ecological imaging, species identification, and bio
 ### ML Systems Architecture & Data Engineering
 
 Broad production systems experience — distributed database design, microservices architecture, cloud platforms (AWS DynamoDB, RDS, ElastiCache), and API design — applied to the challenge of building ML pipelines that actually run in production.
+
+---
+
+### Cybersecurity & Security Operations
+
+Full-stack security operations tooling developed from scratch: real-time SIEM event
+visualization with MITRE ATT&CK kill chain timelines, compliance posture gap detection
+against NIST 800-171 and CMMC control domains, and a multi-source normalization layer
+spanning Wazuh 4/5 and Elastic Security (ECS) schemas — Suricata, Zeek, and Filebeat
+sources included.
+
+Applied hands-on background in OpenSearch aggregation design, Wazuh deployment and
+rule analysis, SCA policy assessment, and SOC dashboard engineering. Relevant to
+government and defense organizations with CMMC compliance requirements and to MSSPs
+managing Wazuh-based environments for multiple customers.
+
+Available for security tooling development, SIEM dashboard engineering, and compliance
+visibility engagements. AFCEA member (Lexington-Concord Chapter).
 
 ---
 
